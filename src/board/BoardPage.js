@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import tw from "twin.macro";
+import tw from "twin.macro"; //eslint-disable-line
 import Customer from './Customer'
 import '../App.css';
 import Paper from '@material-ui/core/Paper';
@@ -10,9 +10,10 @@ import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import { withStyles } from '@material-ui/core/styles';
 
-import HeaderBase from "../home/common/Headers.js";
+import Header from "../home/common/Header.js";
+import Footer from "../home/common/Footer.js";
 
-const Header = tw(HeaderBase)`max-w-none`;
+// const Header = tw(HeaderBase)`max-w-none`;
 
 const styles = theme => ({
 root: {
@@ -57,26 +58,28 @@ render() {
 const { classes } = this.props;
 return (
     <div>
-    <Header />
-    <Paper className={classes.root}>
-        <Table className={classes.table}>
-            <TableHead>
-                <TableRow>
-                    <TableCell>번호</TableCell>
-                    <TableCell>이미지</TableCell>
-                    <TableCell>이름</TableCell>
-                    <TableCell>생년월일</TableCell>
-                    <TableCell>성별</TableCell>
-                    <TableCell>직업</TableCell>
-                </TableRow>
-            </TableHead>
-            <TableBody>
-            {customers.map(c => {
-            return <Customer key={c.id} id={c.id} image={c.image} name={c.name} birthday={c.birthday} gender={c.gender} job={c.job} />
-            })}
-            </TableBody>
-        </Table>
-    </Paper></div>
+        <Header />
+        <Paper className={classes.root}>
+            <Table className={classes.table}>
+                <TableHead>
+                    <TableRow>
+                        <TableCell>번호</TableCell>
+                        <TableCell>이미지</TableCell>
+                        <TableCell>이름</TableCell>
+                        <TableCell>생년월일</TableCell>
+                        <TableCell>성별</TableCell>
+                        <TableCell>직업</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                {customers.map(c => {
+                return <Customer key={c.id} id={c.id} image={c.image} name={c.name} birthday={c.birthday} gender={c.gender} job={c.job} />
+                })}
+                </TableBody>
+            </Table>
+        </Paper>
+        <Footer/>
+    </div>
     
     );
     }

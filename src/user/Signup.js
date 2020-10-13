@@ -1,7 +1,7 @@
 import React from "react";
 import AnimationRevealPage from "../home/AnimationRevealPage.js";
 import { Container as ContainerBase } from "../home/common/Layouts";
-import tw from "twin.macro";
+import tw from "twin.macro"; 
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import illustration from "../images/signup-illustration.svg";
@@ -10,9 +10,9 @@ import googleIconImageSrc from "../images/google-icon.png";
 import twitterIconImageSrc from "../images/twitter-icon.png";
 import { ReactComponent as SignUpIcon } from "feather-icons/dist/icons/user-plus.svg";
 
-import HeaderBase from "../home/common/Headers.js";
+import Header from "../home/common/Header.js";
 
-const Header = tw(HeaderBase)`max-w-none`;
+// const Header = tw(HeaderBase)`max-w-none`;
 
 const Container = tw(ContainerBase)`min-h-screen bg-primary-900 text-white font-medium flex justify-center -m-8`;
 const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;

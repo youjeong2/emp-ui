@@ -5,7 +5,9 @@ import Login from './user/Login'
 import Survey from './survey/Survey'
 import Board from './board/BoardPage'
 import Menu from './cheese/Cheese'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import About from './admin/About'
+import AdminInfo from './admin/AdminInfo'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 const Main: React.FC = () => {
     return <div>
@@ -18,6 +20,14 @@ const Main: React.FC = () => {
                     <Route path="/survey" component={Survey}/>
                     <Route path="/board" component = {Board}/>
                     <Route path="/menu" component={Menu}/>
+                    <Route path="/about" component ={About}/>
+                    <Redirect from={"/history"} to={"/about/history"}/>
+                    <Redirect from={"/services"} to={"/about/services"}/>
+                    <Redirect from={"/location"} to={"/about/location"}/>
+                    {/* <Route path="/contact" component = {Contact}/>
+                    <Route path="/events" component = {Events} />
+                    <Route path="/products" component = {Products} /> */}
+                    <Route path="/admin_info" component = {AdminInfo} />
                 </Switch>
             </div>
         </BrowserRouter>

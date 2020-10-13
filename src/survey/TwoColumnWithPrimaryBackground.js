@@ -5,7 +5,7 @@ import HeaderBase, {
   LogoLink as LogoLinkBase,
   // NavLink as NavLinkBase,
   // PrimaryLink as PrimaryLinkBase
-} from "../home/common/Headers.js";
+} from "../home/common/Header.js";
 import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } from "../home/common/Layouts.js";
 import { SectionHeading } from "../home/common/Headings.js";
 import { SectionDescription } from "../home/common/Typography.js";

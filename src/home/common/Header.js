@@ -68,7 +68,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="order">주문</NavLink>
       <NavLink href="/board">F&Q</NavLink>
       <NavLink href="/survey">추천</NavLink>
-      <NavLink href="/admin">Admin</NavLink>
+      <NavLink href="/about">Admin</NavLink>
       <NavLink href="/login" tw="lg:ml-12!">Login</NavLink>
       {/* <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/login">Log In</PrimaryLink> */}
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/signup">Sign Up</PrimaryLink>
@@ -97,7 +97,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-      Pick To Cheese
+      Pick 2 Cheese
     </LogoLink>
   );
 

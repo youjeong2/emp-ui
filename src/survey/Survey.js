@@ -1,16 +1,16 @@
 import React from "react";
-import tw from "twin.macro";
+import tw from "twin.macro"; //eslint-disable-line
 import "tailwindcss/dist/base.css";
 import "../styles/globalStyles.css";
 import AnimationRevealPage from "./AnimationRevealPage.js";
+import Header from "../home/common/Header.js";
 import Hero from "./TwoColumnWithPrimaryBackground.js";
 import Pricing from "./ThreePlansWithHalfPrimaryBackground.js";
 import FAQ from "./TwoColumnPrimaryBackground.js";
-import Footer from "./FiveColumnDark.js";
+// import Footer from "./FiveColumnDark.js";
+import Footer from "../home/common/Footer.js";
 
-import HeaderBase from "../home/common/Headers.js";
-
-const Header = tw(HeaderBase)`max-w-none`;
+// const Header = tw(HeaderBase)`max-w-none`;
 
 export default () => {
   return (

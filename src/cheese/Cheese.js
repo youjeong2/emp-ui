@@ -11,15 +11,14 @@ import MainFeature2 from "./TwoColSingleFeatureWithStats2.js";
 
 import TabGrid from "./TabCardGrid.js";
 import Testimonial from "./ThreeColumnWithProfileImage.js";
-import Footer from "./FiveColumnWithInputForm.js";
+// import Footer from "./FiveColumnWithInputForm.js";
+import Footer from "../home/common/Footer.js";
 
 import chefIconImageSrc from "../images/chef-icon.svg";
 import celebrationIconImageSrc from "../images/celebration-icon.svg";
 import shopIconImageSrc from "../images/shop-icon.svg";
 
-import HeaderBase from "../home/common/Headers.js";
-
-const Header = tw(HeaderBase)`max-w-none`;
+import Header from "../home/common/Header.js";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
