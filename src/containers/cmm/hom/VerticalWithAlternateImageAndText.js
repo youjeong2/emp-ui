@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import { ReactComponent as SvgDotPatternIcon } from "../images/dot-pattern.svg";
-import { SectionHeading as HeadingTitle } from "./common/Headings.js";
+import { ReactComponent as SvgDotPatternIcon } from "../../../components/images/dot-pattern.svg";
+import { SectionHeading as HeadingTitle } from "../../../components/cmm/Headings.js";
 
 const Container = tw.div`relative`;
 

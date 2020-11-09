@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "../home/common/Headings.js";
 import { SectionDescription } from "../home/common/Typography.js";
-import { PrimaryButton as PrimaryButtonBase } from "../home/common/Buttons.js";
+import { PrimaryButton as PrimaryButtonBase } from "../components/cmm/Buttons.js";
 import { Container as ContainerBase, ContentWithPaddingXl as ContentBase } from "../home/common/Layouts.js";
 import { ReactComponent as CheckboxIcon } from "../images/checkbox-circle.svg";
 

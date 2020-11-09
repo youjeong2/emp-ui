@@ -9,7 +9,7 @@ import HeaderBase, {
 import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } from "../home/common/Layouts.js";
 import { SectionHeading } from "../home/common/Headings.js";
 import { SectionDescription } from "../home/common/Typography.js";
-import { PrimaryButton as PrimaryButtonBase } from "../home/common/Buttons.js";
+import { PrimaryButton as PrimaryButtonBase } from "../components/cmm/Buttons.js";
 import logoImageSrc from "../images/logo-light.svg";
 import serverIllustrationImageSrc from "../images/server-illustration-2.svg";
 

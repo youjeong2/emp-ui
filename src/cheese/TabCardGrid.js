@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { Container, ContentWithPaddingXl } from "../home/common/Layouts.js";
 import { SectionHeading } from "../home/common/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "../home/common/Buttons.js";
+import { PrimaryButton as PrimaryButtonBase } from "../components/cmm/Buttons.js";
 import { ReactComponent as StarIcon } from "../images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../images/svg-decorator-blob-7.svg";

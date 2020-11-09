@@ -1,5 +1,5 @@
 import React from "react";
-import AnimationRevealPage from "../home/AnimationRevealPage.js";
+import AnimationRevealPage from "../containers/cmm/hom/AnimationRevealPage.js";
 import { Container as ContainerBase } from "../home/common/Layouts";
 import tw from "twin.macro"; 
 import styled from "styled-components";

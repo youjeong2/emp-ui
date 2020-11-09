@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
-import AnimationRevealPage from "../home/AnimationRevealPage.js";
+import AnimationRevealPage from "../containers/cmm/hom/AnimationRevealPage.js";
 import Hero from "./TwoColumnWithVideo.js";
 // import Header from '../home/common/Header.js'
 // import StyledHeader from '../home/BackgroundAsImageWithCenteredContent'
